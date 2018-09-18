@@ -3,6 +3,8 @@ def hello_t(array)
     array.each do |element|
       yield(element)
     end
+  else 
+    puts "Hey! No block was given"
   end
 end
 
