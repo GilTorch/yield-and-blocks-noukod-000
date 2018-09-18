@@ -4,7 +4,7 @@ def hello_t(array)
       yield(element)
     end
   else
-    puts "Hey! No block was given"
+    puts "Hey! No block was given!"
   end
 end
 
