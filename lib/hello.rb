@@ -1,6 +1,8 @@
 def hello_t(array)
-  array.each do |element|
-    yield(element)
+  if block_given?
+    array.each do |element|
+      yield(element)
+    end
   end
 end
 
