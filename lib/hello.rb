@@ -1,5 +1,7 @@
 def hello_t(array)
-  yield
+  arr.each do |element|
+    yield
+  end
 end
 
 # call your method here!
